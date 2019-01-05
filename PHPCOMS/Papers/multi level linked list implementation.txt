@@ -1,0 +1,223 @@
+#include <iostream>
+using namespace std;
+struct mlnode;
+typedef mlnode* mptr;
+ union u
+ {
+ 	char ch;
+ 	mptr m;
+ };
+struct mlnode
+{
+ int tag;
+  u data;
+ mptr next;
+};
+void add_end(mptr& M)
+{
+  	mptr q;
+  	if(M==NULL)
+  	{
+  		M=new mlnode;
+  		M->tag=1;
+  		M->next=NULL;
+  		M->data.m=NULL;
+  	}
+  	else
+  	{
+  		q=M;
+  		while(q->next!=NULL)
+  		{
+  			q=q->next;
+  		}
+  		mptr t;
+  		t=new mlnode;
+  		t->tag=1;
+
+  		t->next=NULL;
+  		t->data.m=NULL;
+  		q->next=t;
+  	}
+}
+void add_char(mptr& M,char c)
+{
+	mptr q;
+	if(M==NULL)
+	{
+		M=new mlnode;
+		M->tag=0;
+		M->next=NULL;
+		M->data.ch=c;
+	}
+	else
+	{
+		q=M;
+		while(q->next!=NULL)
+		{
+			q=q->next;
+		}
+		mptr t;
+		t=new mlnode;
+		t->tag=0;
+		q->next=t;
+		t->next=NULL;
+		t->data.ch=c;
+	}
+}
+void print(mptr& M)
+{
+	if(M==NULL)
+	{
+		cout<<")";
+	}
+	else if(M->tag==0)
+	{
+		cout<<"("<<M->data.ch<<",";
+		print(M->next);
+	}
+	else if(M->tag==1)
+	{
+		print(M->data.m);
+		print(M->next);
+	}
+}
+char del_front(mptr& M)
+{
+	mptr t;
+	if(M==NULL)
+	{
+		return -1;
+	}
+	else
+	{
+		t=M;
+		M=M->next;
+		return t->data.ch;
+	}
+}
+void make_list2(mptr& M)
+{
+    int ch;
+    char cho;
+    do
+    {
+        cout<<"what do you want? 1.for adding a character; 2.for making a branch";
+        cin>>ch;
+        if(ch==1)
+        {
+            char in;
+            cout<<"enter a character";
+            cin>>in;
+            add_char(M,in);
+        }
+        else
+        {
+            add_end(M);
+            mptr q;
+            q=M;
+            while(q->next!=NULL)
+            {
+                q=q->next;
+            }
+            make_list2(q->data.m);
+        }
+        cout<<"continue?";
+        cin>>cho;
+    }while(cho=='y');
+    cout<<"this part is over!!!"<<endl;
+}
+int search_char(mptr& M,char k,int& flag)
+{
+    if(M==NULL)
+    {
+        //do nothing
+    }
+    else if(M->tag==0)
+    {
+        if(M->data.ch==k)
+        {
+          flag=1;
+          return flag;
+          //cout<<"found";
+        }
+        else
+        {
+            search_char(M->next,k,flag);
+        }
+    }
+    else
+    {
+        search_char(M->data.m,k,flag);
+        if(flag!=1)
+        {
+          search_char(M->next,k,flag);
+        }
+    }
+    return flag;
+}
+int search_list(mptr& M,char* a,int counter,int& f,const int n)
+{
+    if(M==NULL)
+    {
+        //do nothing
+    }
+    else if(counter==n)
+    {
+        f=1;
+        return f;
+    }
+    else if(M->tag==0)
+    {
+        if(M->data.ch==a[counter])
+        {
+            search_list(M->next,a,counter+1,f,n);
+        }
+        else
+        {
+            search_list(M->next,a,0,f,n);
+        }
+    }
+    else if(M->tag==1)
+    {
+        search_list(M->data.m,a,0,f,n);
+        if(f!=1)
+        {
+            search_list(M->next,a,0,f,n);
+        }
+    }
+    return f;
+}
+int main()
+{
+  mptr M;
+  M=NULL;
+  make_list2(M);
+  print(M);
+  cout<<"enter an element you want to search for"<<endl;
+  char fin;
+  cin>>fin;
+  int ind=0;
+  if(search_char(M,fin,ind))
+  {
+      cout<<"found";
+  }
+  else
+  {
+      cout<<"not found";
+  }
+  char a[20];
+  cout<<"enter the list you want to search for"<<endl;
+  cin>>a;
+  int n=strlen(a)-1;
+  ind=0;
+  int c=0;
+  if(search_list(M,a,ind,c,n))
+  {
+      cout<<"available"<<endl;
+  }
+  else
+  {
+      cout<<"not available"<<endl;
+  }
+  return 0;
+}

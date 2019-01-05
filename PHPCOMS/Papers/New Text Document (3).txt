@@ -1,0 +1,95 @@
+Mine-SweeperGame
+Respected Sir/Madam Done Minesweeper game using js It is a game in which we click on a cell and based on the number on it,we decide how many mines are there as its neighbours and when we click on a mine->Game over So,iam revealing the content of all cells to indicate that game is over. Implemented FloodFill alorithm to deal the cases of clicking on a cell with no neighbouring Mines. We Can change the no of mines,no of cells in the code to have different grids with different number of mines. Flags,Timer are not yet setted. Copy and Save the Content and Name them Accordingly to Run the Game. Uploading it on Behalf of Google india Udacity Scholarship Thank You
+
+I hope to build new Android apps by accomplishing through this program. I'm very much interested to build Android apps.I have many ideas one of them is of creating an app to locate the positions of public toilets in my town,Request government to have a public toilet at a particular position by the users to make my town clean,so that i can also have a considerable contribution towards Better India by improving the status of our town.
+Due to My Enthusiasm i have already started learning the AWT package in Java and i can implement Various classes,sub packages of it.I'm also working for my institute for developing the related Software(College Websites) Associated with the Students(WSDC).After going through this program i like to work for creation of an android app for my institute (Since there is no android app yet)regarding the RO,timetables,route Maps,Events,Schedules etc and be a part for Better NITW(My college)
+
+I wish to improve my skills on android apps and iam very much passionate to have a career in it.I will make sure that i will work my best to create apps that i have mentioned above and turn the tables.I have also written code for some games using Processing library of JavaScript that run on web browsers,which tells my work ethic.
+Due to My Enthusiasm i have already started learning the AWT package in Java and i can implement Various classes,sub packages of it,which tells you my interest on it.I have an Excellent GPA,as a result i have achieved Merit Scholarship from MHRD last year,i have good JEE MAINS Rank also(754).I also have a Strong ability to Prioritize,Manage my time and Makes sure that i have done all works in time.What sets me apart from others is i always like to study deep from the Scratch to improve my Understanding with the subject and to the best of my satisfaction,My will to complete the work assigned no matter what and My determination to Succeed.I have also done a web development course in Internshala and Achieved an Outstanding Grade where i built an e-commerce website based on html,CSS,bootstrap and also contains the database of the orders using MySQL,PHP.
+I'm looking for a Course to Horn my skills in Developing Android Apps nicely.I am very thankful to google for joining hands with Udacity for conducting a scholarship program to improve the skills of developers of India.I like to be one among them and take it as a  Prestigious Issue to Develop my country with Everything I have and to the best of my ability.
+
+
+
+I have also proved myself in JEE MAINS by achieving a rank of 754.Right now iam studying B.tech 2nd year in NIT WARANGAL I have also achieved Merit Scholarship during my 1st year(CGPA :8.72). I am also getting a Scholarship from MHRD for achieving a rank of below 2000 from 2016 to 2020.
+
+
+I hope to build new Android apps by accomplishing through this program. I am very much interested to build Android apps.I have an idea of creating an app to locate the positions of public toilets in my town,Request government to have a public toilet at a particular position by the users so that i can also have a contribution towards Better India by improving the status of our town .I have done a web development course in Internshala and built an e-commerce website based on html,CSS,bootstrap and also contains the database of the orders using MySQL,PHP.I am also working for my institute for developing the related Software Associated with the Students(WSDC).After going through this program i like to work for creation of an android app for my institute (Since there is no android app yet)regarding the RO,timetables,route Maps,Events etc.
+
+
+I hope to build new Android apps by accomplishing through this program. I am very much interested to build Android apps.I have an idea of creating an app to locate the positions of public toilets in my town,Request government to have a public toilet at a particular position by the users to make my town clean,so that i can also have a considerable contribution towards Better India by improving the status of our town .
+I have already started learning the AWT package in Java I have done a web development course in Internshala and built an e-commerce website based on html,CSS,bootstrap and also contains the database of the orders using MySQL,PHP.I am also working for my institute for developing the related Software Associated with the Students(WSDC).After going through this program i like to work for creation of an android app for my institute (Since there is no android app yet)regarding the RO,timetables,route Maps,Events etc.
+
+I wish to improve my skills on android apps and iam very much passionate to have a carrer in it,if iam given a chance I will work my best to create apps that i have mentioned above and turn the tables.
+What sets me apart from others is my will to complete the work assigned no matter what and My determination to Succeed.//So,Iam Searching for a Course to Horn my skills nicely.I am very thankful to google for joining hands with Udacity for conducting a scholarship program to improve the skills of developers of India.I like to be one among them as it is a Prestigious honour to have a scholarship from google.
+
+
+
+
+What is an exceptional response to "Why do you deserve this scholarship?"
+This question previously had details. They are now in a comment.
+
+
+ 
+6 Answers
+Michelle Lin
+Michelle Lin, I studied psychology, but I still love learning more!
+Answered Oct 19, 2016
+Tell them your true purpose and how you want to change the world as a chemical engineer.
+Tell them what you want to do, to help others.
+Tell them that you want to use the knowledge you’ve learned to make a change.
+I found some websites that might help you:
+
+Scholarship Interview Questions: scholarshipinterviewquestions[1]
+Five Common College Interview Questions & How to Answer Them: fastweb[2]
+Goodluck and I wish the best for you.
+
+Footnotes
+
+[1] Scholarship Interview Questions and Answers and Tips
+
+[2] Five Common College Interview Questions & How to Answer Them
+
+ 
+Mandy Norton
+Mandy Norton, former Writer at Freelancer.com
+Answered May 22, 2017
+The thing is: you’re the only person that knows better why you DO deserve it. But I get that it might be hard to navigate your past and decide which academic and personal achievements are relevant and which might be not worth mentioning in your essay.
+
+Your answer should not only we interesting - it has to convince the admission committee that you’re really the best candidate they can have. Consider such questions as:
+
+why it is significant for your academic achievements to get this scholarship?
+which previous achievements can be highlighted? do you have any experience of dealing in hard/stress situations, overcoming obstacles?
+what qualities make you stand out among other candidates? (consult your friends or family if this is a hard question)
+Check this article to get some inspiration: 3 reasons why I deserve a scholarship. And here’s a sample of successful “Why do i deserve this scholarship” essay for you (you can find more useful tips if you visit site):
+
+I must say that the right answer to this question doesn’t exist. In my opinion the key is to believe in your reasons - that way you can make someone believe in them too. So think twice before you submit your essay; and don’t forget to proofread!
+
+
+
+You need to do some soul searching. As in get away in the woods and really figure out what you want soul searching.
+
+You mention you need or want this chemical engineering scholarship. But you fail to mention, other than the monetary benefit it would provide you, what would this scholarship do for you? Why do you want to study chemical engineering? Is it simply because that is what your parents want from you or is it what you want? Hence, the need for soul searching.
+
+Once you figure out the why of what you want to study, your answer for the scholarship will become clearer. Whatever you are crazy passionate about will manifest itself—not just in what you say, but how you say it & your facial expressions. Among many other things you cannot control such as the literal & proverbial spark in your eye.
+
+Passionate people do great things for society. Bill Gates. Rosalind Franklin. Mark Zuckerberg. Michelle Obama. Steve Jobs. Oprah Winfrey. Barack Obama. Ellen Degeneres. Just to name a few.
+
+Make sure you are passionate about this career path & then, if you are, let the scholarship committee know. Be open. Be honest. Be genuine. Let that sparkle shine.
+
+
+"3 reasons.  1) My focus is on being a great chemical engineer, learning what's taught, mastering it, and also inquiring into unanswered questions and under-explored areas. 2) I appreciate the chance I'm being given and will continue to respect the reason it was given, to help others achieve their potential and contribute to society. If I'm able to, I'll take that on as part of my purpose as well, to make this award even more powerful in society. 3) I believe in being a contribution, so I'll also be a contribution to my fellow students and the faculty, helping make your contributions to others more successful."
+
+Brandy Lehmann
+Brandy Lehmann, PD Writing & Marketing, Florida State University (2013)
+Answered Jan 10
+I kid, I kid. Talk about overcoming adversity in an academic setting and how it motivated you to change a core part of yourself. For example, maybe a certain class you took changed your way of thinking, and you are now involved with groups aligned with this point of view and plan to pursue it as a career. I'm currently writing one about my AP Environmental Science class and the impact it has had on me.
+The trick is to use the questions they ask you in order to show them why you deserve it. The best thing you can do in scholarship essay writing is be specfic. "High School has helped me grow a lot as a person" gets you nowhere.
+That's what I'm thinking they want me to do. They don't say "Why do you deserve it?", but they include everything that I would put into an essay of that sort. I think they're trying to keep out all of the "poor me" junk
+Source : https://essay4today.com/
+
+
+Kamia Taylor
+Kamia Taylor
+Answered Mar 29, 2016
+Because for the entire history of chemical engineering women have been grossly under-represented and consequently under-prepared, and for the first time in this era, women like me are spending all our time becoming highly competitive with anyone else, and therefore deserve the chance that men have received for centuries to move forward in the discipline -- making contributions that only we might think of.
+

@@ -1,0 +1,142 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 Nov, 2018, 9:22:19 PM
+    Author     : HP
+*/
+body, html {
+  height: 100%;
+}
+
+
+input[type=text], input[type=password], input[type=email] {
+    width: 95%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #ddd;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus,input[type=email]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("ebook.jpg");
+
+  /* Control the height of the image */
+  min-height: 1000px;
+
+  /* Center and scale the image nicely */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-color:#20B2AA;
+  position: relative;
+    top: 50px;
+}
+
+
+/* Set a style for all buttons */
+.sidenav 
+{
+
+   height: 50%;
+    width: 400px;
+    position: fixed;
+    z-index: auto;
+    top: 0;
+    left: 0;
+    background-color:#20B2AA;
+ 
+     
+   /* overflow-x: hidden;*/
+    padding-top: 40px;
+    
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration:none;
+    font-size: 25px;
+    color: #DC143C;
+    display: block;
+}
+
+.sidenav a:hover {
+    background-color:#20B2AA;
+}
+
+.main {
+    margin-left: 450px;
+    font-size: 20px; 
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+   .sidenav {padding-top: 30px;}
+    .sidenav a {font-size: 30px;}
+}
+  .table1 
+    {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 800px;
+    }
+
+   th, td
+   {
+    text-align: left;
+    padding: 8px;
+    }
+ .details
+      {
+         text-shadow: 2px 2px #ff0000;
+         height:40px;
+         width:220px;
+         background-color:white ;
+      /*   opacity:0.6;*/
+         color:#20B2AA;
+      }
+
+.hh
+{
+ font-size: 20px; 
+}
+.table2 
+    {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 700px;
+    border: 1px solid black;
+    }
+  
+
+    .table2 td
+    {
+      border: 1px solid black;
+   }
+
+      .table2 th
+    {
+      border: 1px solid black;
+   }
+  
+     .table2 tr:nth-child(even)
+    {
+     
+     background-color: white;
+    }
+.ds
+{
+       text-shadow: 2px 2px #ff0000;
+   color:#20B2AA;
+   height:15px;
+ }
+

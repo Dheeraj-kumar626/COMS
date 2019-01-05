@@ -1,0 +1,10 @@
+Short Description
+This a Simple web App where one can issue,reissue,contribute books to library
+
+About
+Its Main Objective is to manage library books Online .The Users can perform renewal,issuing of books and 
+can also contribute the books to the library by the approval of Admin.
+They can also know the Fine they have to pay to the library 
+
+Driving Force/BackGround
+The Disgust caused by standing in long queues for returning and Issuing books

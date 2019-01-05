@@ -1,0 +1,187 @@
+#include <iostream>
+#define MAX 500
+using namespace std;
+union u
+{
+	int i;
+	char c;
+};
+struct queue
+{
+	int f;
+	int r;
+	int tag[MAX];
+	u elements[MAX];
+};
+int is_queue_empty(queue& q)
+{
+	return (q.r==-1&&q.f==-1);
+}
+int is_queue_full(queue& q)
+{
+	return ((q.f)==((q.r+1)%MAX));
+	
+}
+void enque(queue& q,u& x,int k)
+{
+	if(is_queue_full(q))
+	{
+		cout<<"queue is full"<<endl;
+	}
+	else if(k==1)
+	{
+		if(is_queue_empty(q))
+		{
+			q.f=0;
+			q.r=0;
+			q.tag[q.r]=1;
+			q.elements[q.r].i=x.i;
+		}
+		else
+		{
+			q.r=(q.r+1)%MAX;
+			q.tag[q.r]=1;
+			q.elements[q.r].i=x.i;
+		}
+	}
+	else
+	{
+		if(is_queue_empty(q))
+		{
+			q.f=0;
+			q.r=0;q.tag[q.r]=2;
+			q.elements[q.r].c=x.c;
+		}
+		else
+		{
+			q.r=(q.r+1)%MAX;
+			q.tag[q.r]=2;
+			q.elements[q.r].c=x.c;
+		}
+	}
+}
+u dequeue(queue& q)
+{
+	if(is_queue_empty(q))
+	{
+		cout<<"queue is empty";
+	
+	}
+	else
+	{
+		 u x=q.elements[(q.f)%MAX];
+		 q.f=(q.f+1)%MAX;
+		 if(q.f>q.r)
+		 {
+		 	q.f=-1;q.r=-1;
+		 }
+		 return x;
+	}
+}
+void printqueue(queue& q)
+{
+	for(int j=q.f;j<=q.r;j++)
+	{
+		if(q.tag[j]==1)
+		cout<<q.elements[j].i<<",";
+		else
+		cout<<q.elements[j].c<<",";
+	}
+}
+int is_num(char x)
+{
+
+	return ((x>='0')&&(x<='9'));
+}
+int operation(int a,char y,int b)
+{
+	if(y=='+')
+	{
+		return (a+b);
+	}
+	else if(y=='-')
+	{
+		return (a-b);
+	}
+	else if(y=='*')
+	{
+		return (a*b);
+	}
+	else if(y=='/')
+	{
+		return (a/b);
+	}
+}
+/*bool is_operator(char c)
+{
+	return ((c=='+')||(c=='-')||(c=='*')||(c=='/'));
+}*/
+int peep_tag(queue& q)
+{
+	if(is_queue_empty(q))
+	{
+		return 0;
+	}
+    else
+	{
+			return (q.tag[q.f]);
+
+	}	
+}
+int main()
+{
+	queue q;
+	q.f=-1;
+	q.r=-1;
+	char exp[20];
+	cout<<"enter one infix expression";
+	cin>>exp;
+	int i;
+	while(exp[i]!='\0')
+	{
+		u y;
+		if(is_num(exp[i]))
+		{
+			y.i=exp[i]-'0';
+			enque(q,y,1);
+		}
+		else
+		{
+			y.c=exp[i];
+			enque(q,y,2);
+		}
+		i++;
+	}
+	//printqueue(q);
+	i=0;
+	queue q1;
+	q1.f=-1;
+	q1.r=-1;
+	while((q.r-q.f+1!=1)&&(is_queue_empty(q1)))
+	{
+		int ind1=peep_tag(q);
+		u in1=dequeue(q);
+		u in2;
+		int ind2=peep_tag(q1);
+		if((ind1==2)&&(ind2==2))
+		{
+			in2=dequeue(q1);
+			enque(q1,in1,ind1);
+			enque(q,in2,ind2);
+		}
+		else if((ind1==1)&&(ind2==1))
+		{
+			in2=dequeue(q1);
+			u in3;
+			in3.i=operation(in1.i,dequeue(q1).c,in2.i);
+			enque(q,in3,1);
+		}
+		else
+		{
+			enque(q1,in1,ind1);
+		}
+	}
+	cout<<"result is="<<endl;
+	printqueue(q);
+	return 0;
+}

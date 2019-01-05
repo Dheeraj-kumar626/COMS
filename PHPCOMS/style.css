@@ -1,0 +1,154 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Oct, 2018, 12:03:15 AM
+    Author     : HP
+*/
+
+
+body{ width: 100%;
+      height: 100%; 
+      margin: 0;
+}
+a{ text-decoration: none; 
+   background-color: transparent; 
+   color:#ededed;
+}
+
+.header{
+background-color:#000;
+color:#fff;
+border-color: #080808; 
+min-height: 50px;
+border: 1px solid transparent;
+}
+.innerHeader1{
+    width:80%;
+    margin:auto;
+}
+/*
+.Logo1{
+    float: left; 
+    height: 50px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Header-Link1{
+    float:right; 
+    font-size:14px;
+    height: 50px; 
+    padding: 15px 15px; 
+    font-size:16px;
+    font-weight: bold;
+}
+*/
+.content1{
+    min-height: 600px;
+}
+#banner_image{
+ padding-top: 75px;  // changed from 75px to 50px
+ padding-bottom: 50px;
+ padding-left: 150px;
+ text-align: center;
+ color: #f8f8f8;
+ background: url("img2/intro_bg.png") no-repeat center center;
+ background-size: cover;
+ overflow-x: hidden;
+ /*height: 500px;*/
+}
+#banner_image2{
+ padding-top: 75px;  // changed from 75px to 50px
+ padding-bottom: 50px;
+ padding-left: 150px;
+ text-align: center;
+ color: #f8f8f8;
+ background: url("img2/submit_bg.jpg") no-repeat center center;
+ background-size: cover;
+ overflow-x: hidden;
+ /*height: 500px;*/
+}
+.inner-banner-image1{
+    padding-top: 12%;
+    width:80%; 
+    margin:auto;
+}
+#banner_content{
+position: relative;
+padding-top: 6%;
+padding-bottom: 6%;
+overflow:hidden;
+//margin-top: 12%;
+margin-bottom: 12%;
+background-color: rgba(0, 0, 0, 0.7);
+max-width: 660px;
+}
+.button1{
+color: #fff; background-color: #c9302c; border-color: #ac2925; 
+box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125); padding: 10px 16px; font-size: 18px;
+border-radius: 6px;
+}
+.container{
+    width:90%; margin:auto; overflow:hidden;
+}
+.items{
+    width:30%; display: block; padding: 4px; margin-bottom: 20px; line-height: 1.42857143;
+    background-color: #fff; border: 1px solid #ddd; border-radius: 4px; float:left; margin-left:1%;
+}
+.thumbnail{
+    display: block;
+    max-width: 100%; height: auto;
+}
+.caption{
+    color:#000; padding:0px 10px 10px; 
+    font-weight: bold; text-align: center;
+}
+footer{
+//position: absolute;
+padding-top: 10px ;
+background-color: #101010;
+color:#9d9d9d;
+bottom: 0;
+width: 100%;
+text-align: center;
+   // background-color: #000; color:#fff; font-size:14px;
+}
+.tab1{
+    margin-top: 200px;
+}
+h2{
+    text-align:center;
+    padding-top: 30px;
+}
+.panel-body{
+    padding-top: 45px;
+}
+h1{
+    padding-top: 45px
+};
+.bottom1{
+    
+    padding-top:40px;
+}
+#abc{
+    
+    color: blue;
+}
+.panel-footer{
+    
+    padding-top: 10px;
+    color: blue;
+ //   border: 2px solid black;
+}
+.jumbotron{
+
+}
+
+.footercss{
+  //  padding: 50px;
+   // margin: 50px; 
+}
+

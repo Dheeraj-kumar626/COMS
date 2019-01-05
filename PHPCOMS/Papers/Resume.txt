@@ -1,0 +1,77 @@
+﻿CHINNI DHEERAJ KUMAR (D. O. B: 2nd June 1999)
+1K Mega Hostel, National Institute of Technology Warangal, Telangana State, India - 506004
+Contact Number: 9553668153 Linked in: https://www.linkedin.com/in/chinni-dheeraj-572449149/
+E-mail ID: chinnidheerajkumar626@gmail.com Git hub Profile: https://github.com/Dheeraj-kumar626
+Career Objective
+To be a part of a challenging and competitive environment where I could demonstrate my skills , improve my knowledge , capabilities and put them to use for the development of the organization.
+Education
+SNO
+COURSE
+BOARD
+NAME OF THE INSTITUTION
+YEAR OF
+PASSING
+PERCENTAGE /CGPA
+1.
+B. Tech, Computer
+Science and
+Engineering
+Deemed
+National Institute of
+Technology, Warangal
+2020
+8.08
+2.
+Intermediate (M.P.C)
+Board of
+Intermediate
+Education, TS
+SRI CHAITANYA JUNIOR KALASALA
+2016
+98.7
+3.
+Matriculation
+VISWABHARATHI E.M HIGH SCHOOL
+2014
+9.8
+Technical Skills
+• Programming Languages : C++, Java.
+• Web Development : Basic HTML, CSS
+• Web Frameworks : Basic BOOTSTRAP,Django,PHP
+• Data Base Languages : SQL
+
+Courses
+Data Structures and Algorithms(edX)  April 1st 2018
+Web Development Training(Internshala)       June 2017
+
+Experience
+➢ Working in Web and Software Development Cell (WSDC), an initiative in NIT Warangal which provides all online services in institute.
+o Role: WEB Developer (SEPTEMBER 2017 - Present)
+o Experience: 10 months 
+Projects
+
+• Registration and Open Elective Module
+Description: A real time module which is used by more than 5000 students,100 faculties
+of NIT Warangal to Register their courses online and opt for their Open Electives Courses.
+Website: http://wsdc.nitw.ac.in/faculty
+
+•LifeStyleStore E-Commerce Web Application
+Description: A web application which allows user to buy goods and Place Orders
+Technologies Used : HTML, CSS, JQUERY, AJAX, PHP, CODEIGNITER, SQL
+Project Link : https://github.com/THATISAIPRASEN/shopme-codeigniter
+
+• Online-Library-Management-System (OLMS)
+➢Designed as a Part of 3-member team in Hackeathon 
+Description: A basic web application which can be used by a Library to make their transactions simple in online.
+Technologies Used : HTML, CSS, JAVASCRIPT, DJANGO, PYTHON, SQLITE
+Project Link : https://github.com/THATISAIPRASEN/online-librarian-django
+
+Achievements
+• Secured 754 All India Rank in JEE Mains Engineering Paper.
+• Secured 768 Rank in NEST.
+• Secured 893 Rank in Eamcet Entrance Test for Telangana State.
+• Selected for MERIT Scholarship for 1st Semester
+• Selected for AIEEE Scholarship in NIT Warangal.
+Declaration: All the information mentioned above is true to the best of my knowledge.
+Date: 22th July, 2018
+Place: Nalgonda Chinni Dheeraj Kumar
